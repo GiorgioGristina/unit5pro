@@ -49,6 +49,6 @@
 }
 .pho{
   flex-grow: 1;
-  flex-basis: calc(25% - 4%);
-  
+  flex-basis: 25%;
+
 }
