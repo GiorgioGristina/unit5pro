@@ -3,6 +3,12 @@
   margin:0;
   padding:0;
 }
+
+.container{
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+}
 /* style search box */
 .search{
   border: black 2px solid;
@@ -27,6 +33,22 @@
 
 }
 
+
 /* =================
     flexbox
 ======================*/
+
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+.img{
+
+}
+.pho{
+  flex-grow: 1;
+  flex-basis: calc(25% - 4%);
+  
+}
