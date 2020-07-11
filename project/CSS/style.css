@@ -5,7 +5,7 @@
 }
 
 .container{
-  width: 80%;
+  width: 90%;
   margin: 10px auto;
   text-align: center;
 }
@@ -17,7 +17,7 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   margin: 30px auto;
-  width: 500px;
+  width: 50%;
   height: 35px;
 }
 
@@ -44,11 +44,10 @@
   justify-content: space-around;
 
 }
-.img{
 
-}
 .pho{
   flex-grow: 1;
   flex-basis: 25%;
+  margin: 20px auto;
 
 }
