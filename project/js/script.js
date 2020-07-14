@@ -1,1 +1,1 @@
-$(".pho").lightbox();
+//$(".pho").lightbox();
