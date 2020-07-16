@@ -3,7 +3,7 @@
 
 //declaring variable
 
-let image = document.querySelectorAll(".pho");
+let images = document.querySelectorAll(".pho");
 let caption = $("data-title");
 const input = document.getElementById("search");
 
@@ -12,14 +12,14 @@ const input = document.getElementById("search");
 function match(){
   const searchValue = input.value.toLowerCase();
   console.log(searchValue);
-  for (let i = 0; i < image.length; i += 1) {
-    const image = image[i];
-    const caption = image.getAttribute("data-title").lowerCase();
-    const title = image.getAttribute("alt").lowerCase();
+  for (let i = 0; i < images.length; i += 1) {
+    const image = images[i];
+    const caption = image.getAttribute("data-title").toLowerCase();
+    const title = image.getAttribute("alt").toLowerCase();
     if (caption.indexOf(searchValue) > -1 || title.indexOf(searchValue) > -1){
       image.style.display = "";
     } else {
-      image.style.display = "none;"
+      image.style.display = "none";
     }
   }
 }
