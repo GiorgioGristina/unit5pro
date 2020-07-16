@@ -3,8 +3,8 @@
 
 //declaring variable
 
-let images = document.querySelectorAll(".pho");
-let caption = $("data-title");
+let images = document.querySelectorAll(".pho"); // it  creates an array
+
 const input = document.getElementById("search");
 
 // matching function
