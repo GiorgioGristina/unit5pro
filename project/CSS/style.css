@@ -43,13 +43,16 @@
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  
+
+
 
 }
 
 .pho{
-  flex-grow: 1;
-  flex-basis: 25%;
-  margin: 20px auto;
+
+  margin: 25px;
+  width: calc(25% - 25px);
 
 }
 
@@ -58,3 +61,22 @@
 .lightboxOverlay{
   background-color: black;
 }
+/*
+@media query(max-width: 300px) {
+
+  .container{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .gallery{
+    flex-direction: column;
+    margin: 0 25px;
+  }
+
+  .img{
+    margin: 20px 10px;
+
+  }
+}
+*/
