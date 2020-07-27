@@ -46,6 +46,7 @@
   flex-wrap: wrap;
   justify-content: space-around;
   flex-direction: row;
+  max-width: 1160px;
 
 
 
