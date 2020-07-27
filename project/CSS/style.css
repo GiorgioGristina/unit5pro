@@ -6,8 +6,10 @@
 
 .container{
   width: 90%;
+  max-width: 1060px;
   margin: 10px auto;
   text-align: center;
+
 }
 /* style search box */
 #search{
@@ -43,16 +45,16 @@
   display:flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  
+  flex-direction: row;
 
 
 
 }
 
 .pho{
-
   margin: 25px;
-  width: calc(25% - 25px);
+  width: calc(25% - 50px);
+  min-width: 200px;
 
 }
 
@@ -61,7 +63,7 @@
 .lightboxOverlay{
   background-color: black;
 }
-/*
+
 @media query(max-width: 300px) {
 
   .container{
@@ -79,4 +81,3 @@
 
   }
 }
-*/
