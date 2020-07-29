@@ -68,7 +68,7 @@
   background-color: black;
 }
 
-@media query(max-width: 300px) {
+@media (max-width: 320px) {
 
   .container{
     width: 95%;
@@ -77,10 +77,11 @@
 
   .gallery{
     flex-direction: column;
+    
 
   }
 
-  .img{
+  .pho{
     margin: 20px 10px;
 
   }
